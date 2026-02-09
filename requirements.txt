@@ -1,0 +1,17 @@
+# --- 核心框架與檔案處理 ---
+pathlib>=1.0.1
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# --- AI 與圖片辨識 (MobileNetV2 必要項) ---
+tensorflow>=2.15.0
+numpy>=1.23.5
+Pillow>=10.0.0
+
+# --- 字體解析 (Font Audit 必要項) ---
+fonttools>=4.44.0
+
+# --- Google Drive API (若未來需直接呼叫 API 則備用) ---
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
