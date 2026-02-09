@@ -1,0 +1,35 @@
+# --- Python 相關 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- 專案特定加密與密鑰 (極重要！) ---
+# 存放 Google Drive API 的 client_secrets.json 或服務帳戶金鑰
+*.json
+!.github/workflows/*.json  # 如果有自動化腳本除外
+.env
+.flaskenv
+credentials.dat
+token.json
+
+# --- 系統與暫存檔 ---
+.DS_Store (Mac)
+Thumbs.db (Windows)
+*.log
+*.tmp
+
+# --- 本地測試與整理暫存 ---
+# 避免測試時產生的暫存資料夾被推上 GitHub
+test_data/
+output/
+temp_organize/
+
+# --- IDE 相關 ---
+.vscode/
+.idea/
